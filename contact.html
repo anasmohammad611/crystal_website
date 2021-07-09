@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+	<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Contact</title>
+	<link href="contactStyle.css"rel="stylesheet"type="text/css"/>
+	<link href="style.css"rel="stylesheet"type="text/css"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container" style="background-color: lightblue;">
+		<div class="hamburger-menu">
+			<div class="line line-1"></div>
+			<div class="line line-2"></div>
+			<div class="line line-3"></div>
+			<span>Close</span>
+		</div>
+
+		<section class="sidebar">
+			<ul class="menu">
+				<li class="menu-item">
+					<a href="index.html" class="menu-link" data-content="Home">Home</a>
+				</li>
+				<li class="menu-item">
+					<a href="AboutCrystals.html" class="menu-link" data-content="AboutCrystals">AboutCrystals</a>
+				</li>
+				<li class="menu-item">
+					<a href="gallery.html" class="menu-link" data-content="Gallery">Gallery</a>
+				</li>
+			</ul>
+		</section>
+
+
+		<section>
+			<div class="section-header">
+				<h1 class="section-heading">Contact</h1>
+				<div class="underline"></div>
+			</div>
+			<div class="contact-wrap">
+				<div class="contact-in" style="background-image: url('images/1.jpg');">
+					<h1>Contact Info</h1>
+					<h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+					<p>123-456-789</p>
+					<h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+					<p>info@democompany.com</p>
+					<h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+					<p>Vasant Vihar, Delhi, India</p>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="contact-in">
+					<!-- <h1>Send a Message</h1>
+					<form>
+						<input id="FullName" type="text" placeholder="Full Name" class="contact-in-input">
+						<input id="EmailAddress" type="text" placeholder="Email" class="contact-in-input">
+						<input id="SubVariable" type="text" placeholder="Subject" class="contact-in-input">
+						<textarea id="BodyMessage" placeholder="Message" class="contact-in-textarea"></textarea>
+
+						<script>
+							var FullName = document.getElementById('FullName');
+							var EmailAddress =  'mohammadanas796@gmail.com';
+							var SubVariable = document.getElementById('SubVariable');
+							var BodyMessage = document.getElementById('BodyMessage');
+							var allDetails = 'mailto:'+EmailAddress+'?subject='+SubVariable+'&body='+BodyMessage;
+
+						</script>
+
+						<a href="mailto:mohammadanas796@gmail.com">Send</a> 
+
+					</form> -->
+					<div>
+						<ul>
+							<li><h2>Privacy Policy</h2></li>
+							<p>You may browse our website without any data being collected from you. We do not automatically collect personal data about you. We do not collect information about our you from other sources, such as public records or bodies, or private organisations</p>
+							<li><h2>Terms & Conditions</h2></li>
+							<p>You may contact us if you want more infomation about poducts. This website is just a bief about our company, you may connect with us fo more information and to buy products from us.</p>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-in">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1601968196548!5m2!1sen!2sin" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer-content">
+				<p class="copyright">
+					Copyright &copy; 2020, crytalGroups - All Rights Reserved
+				</p>
+				<div class="social-list">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		window.onload = () => {
+			setTimeout(() => {
+				document.querySelector("body").classList.add("display");
+			}, 1000);
+		};
+
+		document.querySelector(".hamburger-menu").addEventListener("click", () => {
+			document.querySelector(".container").classList.toggle("change");
+		});
+
+	</script>
+	<script
+	src="https://code.jquery.com/jquery-3.5.1.js"
+	integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"
+	></script>
+	<script src="tilt.js"></script> 
+</body>
+</html>
