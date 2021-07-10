@@ -258,7 +258,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.9;
   animation: scale 25s;
 }
 
@@ -281,7 +281,7 @@ html {
   font-family: "Baloo Da 2", serif;
   font-size: 8rem;
   font-weight: 300;
-  color: #fff;
+  color: black;
   width: 50%;
   line-height: 9rem;
   letter-spacing: 0.2rem;
@@ -293,7 +293,7 @@ html {
 .banner p {
   font-family: "Josefin Slab", serif;
   font-size: 4rem;
-  color: #fff;
+  color: black;
   width: 70%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
