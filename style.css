@@ -281,7 +281,7 @@ html {
   font-family: "Baloo Da 2", serif;
   font-size: 8rem;
   font-weight: 300;
-  color: black;
+  color: red;
   width: 50%;
   line-height: 9rem;
   letter-spacing: 0.2rem;
@@ -293,7 +293,7 @@ html {
 .banner p {
   font-family: "Josefin Slab", serif;
   font-size: 4rem;
-  color: black;
+  color: red;
   width: 70%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
