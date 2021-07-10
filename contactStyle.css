@@ -27,16 +27,15 @@ body {
 
 .contact-in:nth-child(1) {
 	flex: 30%;
-	color: #fff;
 }
 
 .contact-in:nth-child(2) {
-	flex: 45%;
+	flex: 35%;
 	background: #c31432;
 }
 
 .contact-in:nth-child(3) {
-	flex: 25%;
+	flex: 35%;
 	padding: 0;
 }
 
@@ -67,7 +66,7 @@ body {
 }
 
 .contact-in p {
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 	margin-bottom: 20px;
 }
