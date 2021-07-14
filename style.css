@@ -293,7 +293,7 @@ html {
 .banner p {
   font-family: "Josefin Slab", serif;
   font-size: 4rem;
-  color: #fff;
+  color: black;
   width: 70%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
@@ -438,7 +438,7 @@ html {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(6, 6rem);
-  grid-row-gap: 7rem;
+  grid-row-gap: 12rem;
 }
 
 .service {
@@ -483,22 +483,22 @@ html {
 }
 
 .service-header i {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #4b4b4b;
   margin-right: 2rem;
 }
 
 .service-header h3 {
   font-family: "Baloo Da 2", serif;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   line-height: 2.6rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
+  font-weight: 450;
+  margin-bottom: 1rem;
 }
 
 .service-text {
   font-family: "Josefin Slab", serif;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   text-align: justify;
 }
 
@@ -511,7 +511,7 @@ html {
 .about-us-img-wrapper img {
   width: 100%;
   object-fit: cover;
-  opacity: 0.8;
+  
 }
 
 .Gallery {
