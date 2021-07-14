@@ -293,7 +293,7 @@ html {
 .banner p {
   font-family: "Josefin Slab", serif;
   font-size: 4rem;
-  color: #fff;
+  color: black;
   width: 70%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
@@ -408,6 +408,8 @@ html {
   background-color: lightyellow;
   padding-bottom: 10rem;
 }
+
+
 
 .section-header {
   display: flex;
