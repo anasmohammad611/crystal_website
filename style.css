@@ -840,7 +840,7 @@ html {
   }
 
   .service:nth-child(1) {
-    grid-column: 3 / 7;
+    grid-column: 2 / 8;
   }
 
   .service:nth-child(2) {
@@ -860,6 +860,10 @@ html {
   }
 
   .service:nth-child(6) {
+    grid-column: 11 / 15;
+  }
+
+  .service:nth-child(7) {
     grid-column: 11 / 15;
   }
 }
@@ -916,15 +920,27 @@ html {
   }
 
   .service {
-    width: 40rem;
+    width: 70rem;
     margin-bottom: 6rem;
   }
 
-  .about-us-img-wrapper {
+  .about-text {
+    width: 100rem;
+  }
+
+  .about-us-img-wrapper1 {
     width: 40rem;
   }
 
-  .about-us-img-wrapper img {
+  .about-us-img-wrapper1 img {
+    width: 100%;
+  }
+
+  .about-us-img-wrapper2 {
+    width: 40rem;
+  }
+
+  .about-us-img-wrapper2 img {
     width: 100%;
   }
 
